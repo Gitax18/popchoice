@@ -1,4 +1,14 @@
-:root {
-  --roboto-font: "Roboto Slab", serif;
-  --carter-font: "Carter One", system-ui;
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* application fonts */
+  --font-roboto: "Roboto Slab", serif;
+  --font-carter: "Carter One", system-ui;
+  /* application colors */
+  --color-white: #ffffff;
+  --color-bluish-500: #3b4877;
+  --color-bluish-800: #000c36;
+  --color-greenish-500: #51e08a;
+  --color-black: #000000;
 }
